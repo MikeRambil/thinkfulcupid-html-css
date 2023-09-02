@@ -162,6 +162,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
+/* ------ For Displays above 768px ------- */
 @media all and (min-width: 768px) {
   .flex {
     flex-direction: row;
