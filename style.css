@@ -7,6 +7,7 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
 }
 
 h2 {
@@ -147,13 +148,14 @@ footer p {
 }
 .about_child-1,
 .download_child-1 img {
-  height: 10rem;
+  height: 100%;
+  width: 100%;
 }
 
 .grid-container {
   display: grid;
   gap: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 }
 
 /* -------  Media Query ------- */
@@ -176,7 +178,7 @@ footer p {
     width: 200px;
   }
 
-  .download_child-1 img {
-    width: 50svh;
+  .responsive-img-for-download {
+    width: 80svw;
   }
 }
