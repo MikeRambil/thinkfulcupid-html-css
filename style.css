@@ -1,9 +1,14 @@
 /* -------  General Styles ------- */
 
+* {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   color: #6b1a22;
-  /* min-width: 100vw; */
+  overflow-x: hidden;
+  /* max-width: 100vw; */
 }
 
 img {
@@ -36,6 +41,7 @@ section.alternate-background {
   background-color: #a35766;
   color: #ecdbc9;
   padding-block: 7rem;
+  overflow-x: hidden;
 }
 
 main {
