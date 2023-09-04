@@ -65,12 +65,27 @@ main {
   flex: 2;
 }
 
+.image-hero {
+  margin: 3px;
+  min-width: 200px;
+}
+
+.grow-flex-1 {
+  /* flex: 0; */
+}
+
+.grow-flex-2 {
+  /* flex: 2; */
+}
+
 /* -------  Navigation ------- */
 
 header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -180,9 +195,9 @@ footer p {
     /* padding: 20px; */
   }
 
-  .flex_child-1 img {
+  /* .flex_child-1 img {
     width: 60svw;
-  }
+  } */
 
   .about_child-1 img {
     width: 200px;
@@ -190,5 +205,10 @@ footer p {
 
   .responsive-img-for-download {
     width: 80svw;
+  }
+
+  .image-hero {
+    margin: 3px;
+    min-width: 600px;
   }
 }
